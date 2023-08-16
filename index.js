@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import dotenv from "dotenv"
 
-import { addMovie, getAllMovies } from "./movies.js"
+import { getAllMovies } from "./movies.js"
 
 dotenv.config() 
 const app = express()
